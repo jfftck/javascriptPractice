@@ -1,10 +1,10 @@
 'use strict';
 
 exports = module.exports = {
-    convertArray: convertArray
+    convert: convert
 }
 
-function convertArray(arr) {
+function convert(arr) {
     /*
     Get the length of an array, replace "invalid" with "replaced", and sort it.
     */
